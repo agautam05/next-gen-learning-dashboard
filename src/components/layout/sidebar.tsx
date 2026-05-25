@@ -62,9 +62,9 @@ export function Sidebar({ activeView, setActiveView }: SidebarProps) {
                 initial={{ opacity: 0, x: -10 }}
                 animate={{ opacity: 1, x: 0 }}
                 exit={{ opacity: 0, x: -10 }}
-                className="text-xl font-bold tracking-tight text-white"
+                className="text-lg font-bold tracking-tight text-white"
               >
-                My Track
+                Learning Workspace
               </motion.span>
             )}
           </AnimatePresence>
